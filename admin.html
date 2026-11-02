@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#3d8f82">
+  <title>لوحة المشرف — مسابقة الصلاة على محمد وآل محمد</title>
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/admin.css">
+</head>
+<body class="admin">
+  <div id="demo" class="demo-bar hidden"></div>
+  <header class="brand">
+    <img class="logo" id="logo" src="assets/logo.png" alt="شعار الحملة">
+    <div class="titles">
+      <h1 id="campaign">حملة الخلف</h1>
+      <p class="sub">لوحة المشرف · <span id="contest">مسابقة الصلاة على محمد وآل محمد</span></p>
+    </div>
+    <div class="tools"><a class="btn sm ghost" href="index.html" target="_blank">صفحة المتسابق</a><button class="btn sm ghost hidden" id="signout">خروج</button></div>
+  </header>
+  <nav class="tabs hidden" id="tabs"></nav>
+  <main class="wrap" id="app"><div class="spinner"></div></main>
+  <!-- SheetJS ومكتبة QR تُحمّلان عند الحاجة من CDN (انظر admin.js) -->
+  <script type="module" src="js/admin.js"></script>
+</body>
+</html>
